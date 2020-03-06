@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang=ko-KR>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>HERA</title>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic">
+<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
+<link rel="icon" sizes="144x144" href="images/icon/144-favicon.png">
+<link rel="icon" sizes="114x114" href="images/icon/114-favicon.png">
+<link rel="icon" sizes="72x72" href="images/icon/72-favicon.png">
+<link rel="icon" href="images/icon/57-favicon.png">
+<link rel="shortcut icon" href="images/icon/32-favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script>
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="css/style_ie9.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+<script src="js/main_ie9.js"></script>
+<![endif]-->
+
+<!--[if gt IE 9]><!-->
+<script src="js/main.js"></script>
+<!--<![endif]-->
+</head>
+<body>
+<div class="wrapper">
+	<header id="header">
+		<div class="upper">
+			<h1 class="logo"><a href="">HERA</a></h1>
+			<ul class="gnb">
+				<li>
+					<a href="sub/brandstory.html">brand story</a>
+					<ul class="lnb">
+						<li><a href="">seoulista</a></li>
+						<li><a href="">mizium</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">make up</a>
+					<ul class="lnb">
+						<li><a href="">all product</a></li>
+						<li><a href="">face</a></li>
+						<li><a href="">lip</a></li>
+						<li><a href="">eyes</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">skin care</a>
+					<ul class="lnb">
+						<li><a href="">all product</a></li>
+						<li><a href="">product line</a></li>
+						<li><a href="">skin concern</a></li>
+						<li><a href="">product type</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">homme</a>
+					<ul class="lnb">
+						<li><a href="">all product</a></li>
+						<li><a href="">skin care</a></li>
+						<li><a href="">make up</a></li>
+						<li><a href="">fragrance</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">library</a>
+					<ul class="lnb">
+						<li><a href="">all</a></li>
+						<li><a href="">facebook</a></li>
+						<li><a href="">commercial</a></li>
+						<li><a href="">video clip</a></li>
+						<li><a href="">print press</a></li>
+						<li><a href="">releases</a></li>
+						<li><a href="">history</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">event</a>
+					<ul class="lnb">
+						<li><a href="">체험단 후기</a></li>
+						<li><a href="">베스트 후기</a></li>
+						<li><a href="">테스터 발표</a></li>
+						<li><a href="">체험단 모집</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="login_menu">
+				<li><a href=""><span>login</span></a></li>
+				<li><a href=""><span>language</span></a></li>
+			</ul>
+			<a href="" class="mobile_tab"><span class="mid_line"></span></a>
+			<div class="mobile_menu">
+				<ul class="mobile_gnb">
+					<li>
+						<a href="">brand story</a>
+						<ul class="lnb">
+							<li><a href="">seoulista</a></li>
+							<li><a href="">mizium</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">make up</a>
+						<ul class="lnb">
+							<li><a href="">all product</a></li>
+							<li><a href="">face</a></li>
+							<li><a href="">lip</a></li>
+							<li><a href="">eyes</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">skin care</a>
+						<ul class="lnb">
+							<li><a href="">all product</a></li>
+							<li><a href="">product line</a></li>
+							<li><a href="">skin concern</a></li>
+							<li><a href="">product type</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">homme</a>
+						<ul class="lnb">
+							<li><a href="">all product</a></li>
+							<li><a href="">skin care</a></li>
+							<li><a href="">make up</a></li>
+							<li><a href="">fragrance</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">library</a>
+						<ul class="lnb">
+							<li><a href="">all</a></li>
+							<li><a href="">facebook</a></li>
+							<li><a href="">commercial</a></li>
+							<li><a href="">video clip</a></li>
+							<li><a href="">print press</a></li>
+							<li><a href="">releases</a></li>
+							<li><a href="">history</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">event</a>
+						<ul class="lnb">
+							<li><a href="">체험단 후기</a></li>
+							<li><a href="">베스트 후기</a></li>
+							<li><a href="">테스터 발표</a></li>
+							<li><a href="">체험단 모집</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="mobile_login">
+					<li><a href=""><span>login</span></a></li>
+					<li><a href=""><span>language</span></a></li>
+				</ul>
+			</div>
+			<div class="mobile_dim"></div>
+			<div class="popup">
+				<div class="login_form">
+					<form action="/" method="POST">
+						<h4>login</h4>
+						<input type="text" name="ID" placeholder="ID" title="사용자아이디" id="user_id">
+						<input type="password" name="PASSWORD" placeholder="password" title="비밀번호" id="user_pw" maxlength="12">
+						<p class="pw_text">영문 또는 영문/숫자의 조합 (6~12자 이내)</p>
+						<input type="submit" value="LOGIN" title="로그인버튼">
+						<div class="lang_select">
+							<h4>language</h4>
+							<dl>
+								<dt>
+									<a href="">language
+										<span class="toggle_arrow"></span>
+									</a>
+								</dt>
+								<dd>
+									<ul>
+										<li><a href="">korean</a></li>
+										<li><a href="">english</a></li>
+										<li><a href="">chinese</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<select name="LANGUAGE" id="userLang">
+								<option value="KR">korean</option>
+								<option value="EN">english</option>
+								<option value="CN">chinese</option>
+							</select>
+						</div>
+					</form>
+				</div>
+				<a href="" class="pop_close"></a>
+			</div>
+			<div class="dim"></div>
+		</div>
+		<div class="gallery">
+			<ul class="keyvisual">
+				<li>
+					<video autoplay loop muted id="video1">
+						<source src="hera_sleek.mp4" type="video/mp4">
+					</video>
+				</li>
+				<li><img src="images/keyvisual1.jpg" alt="헤라와 휴고&amp;빅터 콜라보레이션의 아트워크와 립스틱 제품들의 이미지"></li>
+				<li><img src="images/keyvisual2.jpg" alt="NOTHING BUT BLACK, HERA BLACK FOUNDATION 텍스트와 헤라의 뮤즈 가수 제니와 블랙 파운데이션 제품의 이미지"></li>
+			</ul>
+			<a href="" class="btn_prev">
+				<span class="hide">이전 컨텐츠</span>
+			</a>
+			<a href="" class="btn_next">
+				<span class="hide">다음 컨텐츠</span>
+			</a>
+			<a href="" class="btn_bottom">
+				<span class="hide">하단으로</span>
+			</a>
+			<ul class="pagination">
+				<li><a href="">1</a></li>
+				<li><a href="">2</a></li>
+				<li><a href="">3</a></li>
+			</ul>
+		</div>
+	</header>
+	<section id="page1">
+		<div class="page1_inner">
+			<h2 class="title"><a href="">#make-up</a></h2>
+			<ul class="makeup_list clearfix">
+				<li>
+					<a href="">
+						<figure>
+							<img src="images/makeup1.jpg" alt="헤라의 블랙 쿠션 파운데이션 팩트 제품의 이미지">
+							<figcaption>#HERA Black Cushion</figcaption>
+						</figure>
+						<span class="hover_line"></span>
+						<span class="more">shop now</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<figure>
+							<img src="images/makeup2.jpg" alt="헤라의 파스텔톤 보라색 네일 폴리시 제품을 쥐고 있는 같은 색 매니큐어를 쥐고 있는 모델의 손 이미지">
+							<figcaption>#Sensual한 여름 네일아트</figcaption>
+						</figure>
+						<span class="hover_line"></span>
+						<span class="more">shop now</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<figure>
+							<img src="images/makeup3.jpg" alt="헤라 CC크림 제품 3개가 노란색 바탕 위에 놓여있는 이미지">
+							<figcaption>#New Arrival</figcaption>
+						</figure>
+						<span class="hover_line"></span>
+						<span class="more">shop now</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<figure>
+							<img src="images/makeup4.jpg" alt="헤라의 마스카라와 뷰러 그리고 인조 속눈썹이 함께 배치되어 있는 이미지">
+							<figcaption>#COLORFUL SUMMER MAKE-UP</figcaption>
+						</figure>
+						<span class="hover_line"></span>
+						<span class="more">shop now</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<figure>
+							<img src="images/makeup5.jpg" alt="블러셔를 바른 여성 모델의 이미지">
+							<figcaption>#플래시 컬러 스틱 블러셔</figcaption>
+						</figure>
+						<span class="hover_line"></span>
+						<span class="more">shop now</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<figure>
+							<img src="images/makeup6.jpg" alt="헤라의 아이섀도우와 립스틱이 마쉬 로우와 체리와 함께 민트와 핑크색 배경에 배치되어 있는 이미지">
+							<figcaption>#HERA Style Guide</figcaption>
+						</figure>
+						<span class="hover_line"></span>
+						<span class="more">shop now</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="page2">
+		<div class="page2_inner">
+			<h2 class="title"><a href="">#skin-care</a></h2>
+			<p class="title_sub">새로운 시대의 특별한 아름다움으로 새로운 시그니처가 될 당신, 헤라의 신상품을 가장 먼저 만나보세요.</p>
+			<div class="skin_gallery">
+				<ul>
+					<li>
+						<a href="">
+							<img src="images/skincare1.jpg" alt="익셉셔널 오 드 퍼퓸의 제품 이미지">
+							<p class="skintxt">익셉셔널 오 드 퍼품</p>
+							<p class="skintxt sub">EXCEPTIONAL EAU DE PARFUM</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/skincare2.jpg" alt="문 워커 오 드 뚜왈렛의 제품 이미지">
+							<p class="skintxt">문 워커 오 드 뚜왈렛</p>
+							<p class="skintxt sub">MOON WALKER EAU DE TOILETTE</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/skincare3.jpg" alt="아쿠아볼릭 세럼의 제품 이미지">
+							<p class="skintxt">아쿠아볼릭 세럼</p>
+							<p class="skintxt sub">AQUABOLIC SERUM</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/skincare4.jpg" alt="오렌지 립스틱 오 드 뚜왈렛의 제품 이미지">
+							<p class="skintxt">오렌지 립스틱 오 드 뚜왈렛</p>
+							<p class="skintxt sub">ORANGE LIPSTICK EAU DE TOILETTE</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/skincare5.jpg" alt="퓨리파잉 클렌징의 제품 이미지">
+							<p class="skintxt">퓨리파잉 클렌징</p>
+							<p class="skintxt sub">PURIFYING CLEANSING</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/skincare6.jpg" alt="에이지 어웨이의 제품 이미지">
+							<p class="skintxt">에이지 어웨이</p>
+							<p class="skintxt sub">AGE AWAY</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/skincare7.jpg" alt="오 드 보떼 블라썸의 제품 이미지">
+							<p class="skintxt">오 드 보떼 블라썸</p>
+							<p class="skintxt sub">EAU DE BEAUTE BLOSSOM</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/skincare8.jpg" alt="셀 에센스의 제품 이미지">
+							<p class="skintxt">셀 에센스</p>
+							<p class="skintxt sub">CELL ESSENCE</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/skincare9.jpg" alt="뷰티 부스팅 페이셜 오일의 제품 이미지">
+							<p class="skintxt">뷰티 부스팅 페이셜 오일</p>
+							<p class="skintxt sub">BEAUTY BOOSTING FACIAL OIL</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="skin_gallery_btn">
+				<a href="" class="btn_prev" >
+					<span class="hide">이전 컨텐츠</span>
+				</a>
+				<a href="" class="btn_next" >
+					<span class="hide">다음 컨텐츠</span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section id="page3">
+		<div class="page3_inner">
+			<h2 class="title"><a href="">#HERA Homme</a></h2>
+			<ul class="homme_list clearfix">
+				<li>
+					<a href=""><img src="images/homme1.jpg" alt="헤라 옴므 블랙 스킨의 제품 3개가 놓여있는 이미지">
+					<span class="dim_color"></span>
+					<span class="dim_mono"></span>
+					<span class="hommetxt">
+						<span>PRODUCT : <br>Homme black skincare</span>
+						<span class="more">more</span>
+					</span>
+					</a>
+				</li>
+				<li>
+					<a href=""><img src="images/homme2.jpg" alt="헤라 옴므 선크림의 이미지">
+					<span class="dim_color"></span>
+					<span class="dim_mono"></span>
+					<span class="hommetxt">
+						<span>HOMME : <br>남자를 위한 선케어</span>
+						<span class="more">more</span>
+					</span>
+					</a>
+				</li>
+				<li>
+					<a href=""><img src="images/homme3.jpg" alt="헤라 옴므 슈퍼 브라이트 플루이드 로션 제품이 와이셔츠, 선글라스, 지갑과 시계와 함께 놓여있는 이미지">
+					<span class="dim_color"></span>
+					<span class="dim_mono"></span>
+					<span class="hommetxt">
+						<span>NEW PRODUCT : <br>Homme super<br>Brightning fluid</span>
+						<span class="more">more</span>
+					</span>
+					</a>
+				</li>
+				<li>
+					<a href=""><img src="images/homme4.jpg" alt="헤라 블랙 퍼펙트 스킨케어 제품의 이미지">
+					<span class="dim_color"></span>
+					<span class="dim_mono"></span>
+					<span class="hommetxt">
+						<span>MAGAZINE : <br>남자를 위한 강력한 에너지<br>Homme basic line</span>
+						<span class="more">more</span>
+					</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="page4">
+		<div class="page4_inner clearfix">
+			<div class="brandbox1">
+				<img src="images/brand1.jpg" alt="여성 모델이 캐주얼한 화이트 슬리브리스 정장을 입고 정면을 비스듬하게 응시하고 서있는 이미지">
+				<h2 class="title"><a href="">#brand story</a></h2>
+			</div>
+			<!-- div.brandbox2>ul>(li>a>img[src=images/brand$.jpg]+li>p>b^p+) -->
+			<div class="brandbox2">
+				<a href="">
+					<img src="images/brand2.jpg" alt="헤라의 피부 과학 연구소 미지움의 내부 이미지">
+					<div class="brandtxt">
+						<p class="maintxt">시대를 앞선 첨단 기술,<br><b>셀-바이오</b></p>
+						<p>
+							세포의 활성화와 커뮤니케이션을 돕는 것을 시작으로 세계 최초의<br>
+							세포 모사체를 개발하며 혁신과 진화를 거듭한 헤라의 셀-바이오™ 테크놀로지.<br>
+							셀-바이오™를 통한 헤라의 피부 활성케어는 피부 본연의 생기를<br>
+							극대화시켜 맑고 투명하면서 나이를 가늠할 수 없는<br>
+							아름다운 동안 피부를 약속합니다.
+						</p>
+						<span class="more">more</span>
+					</div>
+				</a>
+			</div>
+			<div class="brandbox3">
+				<a href="">
+					<div class="brandtxt">
+						<p class="maintxt">시대의 아이콘 서울리스타,<br><b>그녀의 특별한 아름다움</b></p>
+						<p>
+							서울리스타는 헤라의 ‘Exceptional Beauty from SEOUL’을<br>
+							형상화한 뮤즈로 대한민국을 대표하는 가장 아름다운 여성이며,<br>
+							단순한 뷰티 브랜드를 뛰어넘어 문화를 구축하고 전파하는<br>
+							뷰티 아이콘입니다.헤라는 아시아의 트렌드를 창조하고<br>
+							선도하는 뷰티 메신저로 특별한 매력이 넘치는 서울리스타의<br>
+							아름다움과 가치를 전세계에 전합니다.
+						</p>
+						<span class="more">more</span>
+					</div>
+					<img src="images/brand3.jpg" alt="반지를 끼고 서있는 헤라 서울리스타 모델의 손 부분 이미지">
+				</a>
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="footer_inner">
+			<div class="sns">
+				<p>Share your #HERA moments!</p>
+				<ul>
+					<li class="icon_sns"><a href=""><img src="images/icon/icon_instagram.png" alt="인스타그램 바로가기 아이콘"></a></li>
+					<li class="icon_sns"><a href=""><img src="images/icon/icon_facebook.png" alt="페이스북 바로가기 아이콘"></a></li>
+					<li class="icon_sns"><a href=""><img src="images/icon/icon_youtube.png" alt="유튜브 바로가기 아이콘"></a></li>
+				</ul>
+			</div>
+			<ul class="info">
+				<li><a href="">고객서비스센터(수신자요금부담) 080-023-5454</a></li>
+				<li><a href="">서비스이용약관</a></li>
+				<li><a href="">개인정보 처리(취급) 방침</a></li>
+				<li><a href="">영상정보처리방침</a></li>
+				<li><a href="">고객서비스센터</a></li>
+				<li><a href="">관련 사이트</a></li>
+				<li><a href="">사이트맵</a></li>
+				<li><a href="">구입처안내</a></li>
+			</ul>
+			<p class="copyright">©2014 AMOREPACIFIC. all rights reserved.</p>
+		</div>
+	</footer>
+	<div class="scroll_bar"></div>
+</div>
+</body>
+</html>
